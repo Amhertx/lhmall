@@ -1,11 +1,11 @@
 package com.lhy.lhmall.common;
 
-public class NewBeeMallException extends RuntimeException {
+public class MallException extends RuntimeException {
 
-    public NewBeeMallException() {
+    public MallException() {
     }
 
-    public NewBeeMallException(String message) {
+    public MallException(String message) {
         super(message);
     }
 
@@ -15,7 +15,7 @@ public class NewBeeMallException extends RuntimeException {
      * @param message
      */
     public static void fail(String message) {
-        throw new NewBeeMallException(message);
+        throw new MallException(message);
     }
 
 }

@@ -1,4 +1,4 @@
-package com.lhy.lhmall.controller;
+package com.lhy.lhmall.controller.mall;
 
 import com.lhy.lhmall.common.Constants;
 import com.lhy.lhmall.common.ServiceResultEnum;

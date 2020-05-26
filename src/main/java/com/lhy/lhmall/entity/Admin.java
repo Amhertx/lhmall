@@ -10,6 +10,7 @@ import lombok.ToString;
 @Data
 @ToString
 public class Admin {
+    //管理员实体
     private Integer adminId;//管理员id
     private String loginAdmin;//登录名
     private String loginPassword;//登录密码

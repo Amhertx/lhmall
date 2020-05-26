@@ -8,6 +8,8 @@ import org.springframework.stereotype.Repository;
 public interface AdminMapper{
     int insert(Admin admin);
 
+    int insertSelective(Admin admin);
+
     /**
      * 登录方法
      * @param userName
